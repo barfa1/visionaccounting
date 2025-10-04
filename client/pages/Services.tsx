@@ -102,6 +102,9 @@ export default function Services() {
           <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center">
               <div>
+                  <img src="/images/vision_ac_logo_black.jpeg" alt="Vision Accounting Logo" className="w-40 h-25" />
+                </div>
+              <div>
                 <h1 className="text-xl font-bold leading-tight">
                   <span className="text-vision-yellow">Vision Accounting</span>
                   <span className="text-gray-800"> - Tally Training & Accounting Services</span>
@@ -195,17 +198,17 @@ export default function Services() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"
-              className="px-6 py-3 bg-vision-yellow hover:bg-vision-yellow-dark text-gray-900 font-semibold rounded-lg"
+              className="px-6 py-3 bg-vision-yellow hover:bg-white text-gray-900 font-semibold rounded-lg"
             >
               Contact Us
             </Link>
-            <Button
+            <Link
+              to="#"
               onClick={openEnrollmentForm}
-              variant="outline"
-              className="border-white text-white hover:bg-white hover:text-gray-900"
+              className="px-6 py-3 bg-vision-yellow hover:bg-white text-gray-900 font-semibold rounded-lg"
             >
               Enroll for Training
-            </Button>
+            </Link>
           </div>
         </div>
       </section>

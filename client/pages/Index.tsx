@@ -136,6 +136,9 @@ export default function Index() {
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <div>
+                  <img src="/images/vision_ac_logo_black.jpeg" alt="Vision Accounting Logo" className="w-40 h-25" />
+              </div>
+              <div>
                 <h1 className="text-xl font-bold leading-tight">
                   <span className="text-vision-yellow">Vision Accounting</span>
                                     <span className="text-gray-800">
@@ -512,16 +515,13 @@ export default function Index() {
               </h2>
               
               <p className="text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto">
-                At Vision Accounting, we believe that financial clarity and professional growth go hand in hand. Founded and led by Mr. Dhananjay Patidar, our firm stands at the intersection of expert accounting services and transformative education. With years of hands-on experience and a deep commitment to excellence, we specialize in Tally ERP, GST compliance, taxation, and practical accounting—empowering both aspiring professionals and established businesses to thrive.
+                At Vision Accounting, we combine expert financial services with industry-focused education to empower professionals and businesses alike. Founded by Mr. Dhananjay Patidar, our firm specializes in Tally ERP, GST compliance, taxation, and practical accounting.
               </p>
               <p className={`text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto mt-6 ${showFullAbout ? '' : 'hidden'}`}>
-                Our training programs are designed not just to teach, but to elevate. We focus on real-world application, ensuring that students gain the confidence and competence to succeed in competitive job markets. From foundational accounting principles to advanced tax strategies, our curriculum is tailored to meet the evolving demands of the industry. Placement support and career guidance are integral to our approach, helping learners transition smoothly from classroom to career.
+               We offer hands-on training programs designed to build real-world skills, backed by placement support and career guidance. For businesses, we provide reliable, accurate, and hassle-free financial management tailored to support growth and compliance.
               </p>
               <p className={`text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto mt-6 ${showFullAbout ? '' : 'hidden'}`}>
-                For businesses, Vision Accounting offers reliable, hassle-free financial management. Whether you're a startup seeking structure or an established enterprise aiming for optimization, our services are built to simplify compliance, improve accuracy, and support strategic decision-making. We pride ourselves on being more than just service providers—we’re long-term partners in your growth.
-              </p>
-              <p className={`text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto mt-6 ${showFullAbout ? '' : 'hidden'}`}>
-                What sets us apart is our unwavering focus on quality, integrity, and personalized support. Every engagement, whether educational or consultative, is driven by our mission to build trust, deliver value, and foster success. At Vision Accounting, we don’t just manage numbers—we shape futures.
+                Driven by quality, integrity, and personalized support, Vision Accounting is committed to delivering lasting value—helping clients not just manage numbers, but shape their futures.
               </p>
               <div className="mt-6">
                 <Button
@@ -677,11 +677,10 @@ export default function Index() {
                   Expert Accounting Trainer
                 </p>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  With years of experience in accounting and training, Mr.
-                  Patidar specializes in Tally software, GST compliance, and
-                  practical accounting solutions. Dedicated to providing quality
-                  education and ensuring student success through comprehensive
-                  training and placement support.
+                  With years of hands-on experience in professional accounting and skill-based training, he is a trusted expert in Tally software, GST compliance, and practical accounting. His teaching goes beyond theory—he’s focused on delivering real-world knowledge that translates into real career opportunities.
+                </p>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Students under his guidance gain the confidence, clarity, and competence needed to succeed in today’s competitive job market. From in-depth training to dedicated placement support, he is committed to helping learners become industry-ready professionals.
                 </p>
 
                 {/* Contact Info */}
@@ -826,13 +825,13 @@ export default function Index() {
                 <div className="space-y-4">
                   <Button
                     onClick={openEnrollmentForm}
-                    className="w-full bg-vision-yellow hover:bg-vision-yellow-dark text-gray-900 py-3 font-semibold"
+                    className="w-full bg-vision-yellow hover:bg-white text-gray-900 py-3 font-semibold"
                   >
                     Enroll Today
                   </Button>
                   <Button
                     variant="outline"
-                    className="w-full border-white text-white hover:bg-white hover:text-gray-900 py-3 font-semibold"
+                    className="w-full bg-vision-yellow hover:bg-white text-gray-900 py-3 font-semibold"
                   >
                     Download Brochure
                   </Button>
@@ -899,11 +898,9 @@ export default function Index() {
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Contact Info</h4>
+              <h4 className="font-semibold mb-2">Contact Info</h4>
               <p className="text-gray-400 text-sm">
-                301 (3rd Floor) Advocate Chamber
-                <br />6 Sikkha Mohalla Main Road, Indore
-                <br />
+                <a href="mailto:visionaccounting@myyahoo.com">visionaccounting@myyahoo.com</a><br/><br/>
                 <a href="https://maps.app.goo.gl/U9ARyXWF3DaNnZad9" target="_blank" rel="noopener noreferrer" className="text-vision-yellow hover:underline">Get Directions</a>
               </p>
               <div className="mt-6">

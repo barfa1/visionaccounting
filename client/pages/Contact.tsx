@@ -116,6 +116,9 @@ export default function Contact() {
           <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center">
               <div>
+                <img src="/images/vision_ac_logo_black.jpeg" alt="Vision Accounting Logo" className="w-40 h-25" />
+              </div>
+              <div>
                 <h1 className="text-xl font-bold leading-tight">
                   <span className="text-vision-yellow">Vision Accounting</span>
                   <span className="text-gray-800">

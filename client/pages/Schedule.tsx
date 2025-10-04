@@ -137,6 +137,9 @@ export default function Schedule() {
           <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center">
               <div>
+                <img src="/images/vision_ac_logo_black.jpeg" alt="Vision Accounting Logo" className="w-40 h-25" />
+              </div>
+              <div>
                 <h1 className="text-xl font-bold leading-tight">
                   <span className="text-vision-yellow">Vision Accounting</span>
                   <span className="text-gray-800">
@@ -444,13 +447,13 @@ export default function Schedule() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               onClick={openEnrollmentForm}
-              className="bg-vision-yellow hover:bg-vision-yellow-dark text-gray-900 font-semibold px-8 py-3"
+              className="bg-vision-yellow hover:bg-white text-gray-900 font-semibold px-8 py-3"
             >
               Enroll Now
             </Button>
             <Button
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-gray-900 px-8 py-3 font-semibold"
+              className="bg-vision-yellow hover:bg-white text-gray-900 font-semibold px-8 py-3"
             >
               Download Brochure
             </Button>

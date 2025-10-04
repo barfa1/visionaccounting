@@ -51,14 +51,14 @@ export default function EnrollmentForm({
     {
       name: "Tally Prime",
       duration: "2 Months",
-      fee: "₹7,999",
+      fee: "₹6,999",
       popular: true,
       features: ["Latest Version", "Hands-on Practice", "Certificate"],
     },
     {
       name: "Tally ERP 9",
       duration: "2 Months",
-      fee: "₹6,999",
+      fee: "₹5,999",
       popular: false,
       features: ["Complete ERP Training", "Industry Standard", "Project Work"],
     },
