@@ -224,7 +224,7 @@ export default function EducationalLayout() {
                 </div>
                 <div className="flex items-center">
                   <Mail className="w-4 h-4 mr-1" />
-                  <span>Visionaccounting@myyahoo.com</span>
+                    <a href="mailto:visionaccounting@myyahoo.com">visionaccounting@myyahoo.com</a>
                 </div>
               </div>
             </div>
@@ -770,7 +770,7 @@ export default function EducationalLayout() {
                       <br />6 Sikkha Mohalla Main Road, Indore
                     </span>
                     <div>
-                      <a href="https://www.google.com/maps/dir/?api=1&destination=22.720863,75.8630805" target="_blank" rel="noopener noreferrer" className="text-vision-yellow hover:underline">Get Directions</a>
+                      <a href="https://maps.app.goo.gl/U9ARyXWF3DaNnZad9" target="_blank" rel="noopener noreferrer" className="text-vision-yellow hover:underline">Get Directions</a>
                     </div>
                   </div>
                 </div>
@@ -780,24 +780,61 @@ export default function EducationalLayout() {
                 </div>
                 <div className="flex items-center">
                   <Mail className="w-4 h-4 mr-2" />
-                  <span>Visionaccounting@myyahoo.com</span>
+                    <a href="mailto:visionaccounting@myyahoo.com">visionaccounting@myyahoo.com</a>
                 </div>
                 <div className="mt-6">
                   <h4 className="font-semibold mb-3">Follow Us</h4>
-                  <ul className="space-y-2 text-sm">
-                    <li>
-                      <a href="https://www.instagram.com/vision_accounting_?igsh=MXF2czJoZDZ6OGp6aA==" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-vision-yellow transition-colors">Instagram</a>
-                    </li>
-                    <li>
-                      <a href="https://jsdl.in/DT-294R6EWLIUV" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-vision-yellow transition-colors">Justdial</a>
-                    </li>
-                    <li>
-                      <a href="https://www.sulekha.com/profile/vision-accounting-tally-classes-mg-road-indore?utm_medium=copyLink" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-vision-yellow transition-colors">Sulekha</a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/vision-accounting?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-vision-yellow transition-colors">LinkedIn</a>
-                    </li>
-                  </ul>
+                    <div className="flex space-x-4">
+                    <a
+                      href="https://www.instagram.com/visionaccounting.in/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Instagram"
+                      className="hover:scale-110 transition-transform"
+                    >
+                      <svg className="w-6 h-6" viewBox="0 0 24 24">
+                      <defs>
+                        <radialGradient id="instagram-gradient" r="150%" cx="30%" cy="107%">
+                        <stop offset="0%" stopColor="#fdf497"/>
+                        <stop offset="5%" stopColor="#fdf497"/>
+                        <stop offset="45%" stopColor="#fd5949"/>
+                        <stop offset="60%" stopColor="#d6249f"/>
+                        <stop offset="90%" stopColor="#285AEB"/>
+                        </radialGradient>
+                      </defs>
+                      <path fill="url(#instagram-gradient)" d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm4.25 3.25a5.25 5.25 0 1 1 0 10.5 5.25 5.25 0 0 1 0-10.5zm0 1.5a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5zm5.25.75a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                      </svg>
+                    </a>
+                    <a
+                      href="https://jsdl.in/DT-294R6EWLIUV" 
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Justdial"
+                      className="hover:scale-110 transition-transform"
+                    >
+                      <img src="/images/justdial_logo.svg" alt="Justdial" className="w-6 h-6" />
+                    </a>
+                    <a
+                      href="https://www.sulekha.com/profile/vision-accounting-tally-classes-mg-road-indore?utm_medium=copyLink"
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      aria-label="Sulekha"
+                      className="hover:scale-110 transition-transform"
+                    >
+                      <img src="/images/sulekha-logo.svg" alt="Sulekha" className="w-6 h-6" />
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/vision-accounting?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="LinkedIn"
+                      className="hover:scale-110 transition-transform"
+                    >
+                      <svg className="w-6 h-6" viewBox="0 0 24 24">
+                      <path fill="#0A66C2" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.268h-3v-5.604c0-1.337-.026-3.063-1.867-3.063-1.868 0-2.154 1.459-2.154 2.967v5.7h-3v-10h2.881v1.367h.041c.401-.761 1.379-1.563 2.838-1.563 3.036 0 3.6 2.001 3.6 4.601v5.595z"/>
+                      </svg>
+                    </a>
+                    </div>
                 </div>
               </div>
             </div>
@@ -805,7 +842,7 @@ export default function EducationalLayout() {
 
           <div className="border-t border-gray-700 mt-8 pt-8 text-center">
             <p className="text-gray-400 text-sm">
-              © 2024 Vision Accounting Institute. All rights reserved. | NAAC
+              © 2025 Vision Accounting Institute. All rights reserved. | NAAC
               Accredited | ISO 9001:2015 Certified
             </p>
           </div>

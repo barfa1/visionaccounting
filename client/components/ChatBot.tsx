@@ -113,7 +113,7 @@ export default function ChatBot({ className = "" }: ChatBotProps) {
       lowerMessage.includes("address") ||
       lowerMessage.includes("location")
     ) {
-                        response = `📞 **Contact Information:**\n\n**Phone:** +91 9009232649, +91 9179632649\n**WhatsApp:** +91 9179632649\n**Email:** Visionaccounting@myyahoo.com\n\n📍 **Address:**\n3rd Floor, Advocate Chamber, 301,\n6 Sikh Mohalla Main Road,\nNear Central Camera Repairing,\nIndore GPO, Indore - 452007\n\n⏰ **Business Hours:**\nMonday - Sunday: 8:00 AM - 8:00 PM`;
+                        response = `📞 **Contact Information:**\n\n**Phone:** +91 9009232649, +91 9179632649\n**WhatsApp:** +91 9179632649\n**Email:** visionaccounting@myyahoo.com\n\n📍 **Address:**\n3rd Floor, Advocate Chamber, 301,\n6 Sikh Mohalla Main Road,\nNear Central Camera Repairing,\nIndore GPO, Indore - 452007\n\n⏰ **Business Hours:**\nMonday - Sunday: 8:00 AM - 8:00 PM`;
       quickReplies = ["Call Now", "WhatsApp", "Visit Location", "Send Email"];
     }
     // Placement & Jobs

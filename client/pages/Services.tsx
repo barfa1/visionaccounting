@@ -245,18 +245,18 @@ export default function Services() {
                 301 (3rd Floor) Advocate Chamber
                 <br />6 Sikkha Mohalla Main Road, Indore
                 <br />
-                <a href="https://www.google.com/maps/dir/?api=1&destination=22.720863,75.8630805" target="_blank" rel="noopener noreferrer" className="text-vision-yellow hover:underline">Get Directions</a>
+                <a href="https://maps.app.goo.gl/U9ARyXWF3DaNnZad9" target="_blank" rel="noopener noreferrer" className="text-vision-yellow hover:underline">Get Directions</a>
               </p>
               <div className="mt-4 text-gray-400 text-sm space-y-1">
                 <div className="flex items-center"><Phone className="w-4 h-4 mr-2" />+91 9009232649</div>
                 <div className="flex items-center"><Phone className="w-4 h-4 mr-2" />+91 9179632649</div>
-                <div className="flex items-center"><Mail className="w-4 h-4 mr-2" />Visionaccounting@myyahoo.com</div>
+                <div className="flex items-center"><Mail className="w-4 h-4 mr-2" /><a href="mailto:visionaccounting@myyahoo.com" className="hover:text-vision-yellow">visionaccounting@myyahoo.com</a></div>
               </div>
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center">
             <p className="text-gray-400">
-              © 2024 Vision Accounting - Tally Training & Accounting Services. All rights reserved.
+              © 2025 Vision Accounting - Tally Training & Accounting Services. All rights reserved.
             </p>
           </div>
         </div>
