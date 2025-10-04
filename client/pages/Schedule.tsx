@@ -16,7 +16,7 @@ import {
   MessageCircle,
 } from "lucide-react";
 import { Link } from "react-router-dom";
-import ChatBot from "@/components/ChatBot";
+import FloatingButtons from "@/components/FloatingButtons";
 import EnrollmentForm from "@/components/EnrollmentForm";
 
 export default function Schedule() {
@@ -586,18 +586,8 @@ export default function Schedule() {
       </footer>
 
             {/* ChatBot */}
-      <ChatBot />
-
-      {/* Floating WhatsApp Button */}
-      <a
-        href="https://wa.me/919179632649"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-6 right-20 z-40 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
-        title="Chat on WhatsApp"
-      >
-        <MessageCircle className="w-6 h-6" />
-      </a>
+      {/* Floating Action Buttons Container */}
+      <FloatingButtons />
 
       {/* Enrollment Form */}
       <EnrollmentForm
